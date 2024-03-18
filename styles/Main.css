@@ -1,3 +1,15 @@
-p{
-    color:rgb(255, 0, 0);
+p {
+    color: rgb(154, 129, 214);
+}
+
+/* #school{ 
+    font-size: larger;
+} */
+
+/* p.silly { 
+     background-color: grey; 
+} */
+
+h2.important {
+    font-size: 30px;
 }
