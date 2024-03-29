@@ -13,3 +13,7 @@ p {
 h2.important {
     font-size: 30px;
 }
+
+.color {
+    background-color: rgb(214, 214, 214);
+}
