@@ -40,7 +40,7 @@
     transition: all 0.7s ease-in-out;
 }
 
-.button-press-animation:active {
+.button-press-animation button:active {
     transform: scale(0.95);
   }
 
