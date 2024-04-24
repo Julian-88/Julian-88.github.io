@@ -18,7 +18,7 @@ for (let i = 5; i >= 0; i--) {
 let i = 0;
 let o = 50;
 
-for (i=1;i<=a;i++){
+for (i=1;i<=o;i++){
   if(i%2==0){
     console.log(i)
   }
