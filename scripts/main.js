@@ -20,17 +20,22 @@ console.log("TEST 3:")
 let i = 0;
 let o = 50;
 
-for (i=1;i<=o;i++){
+for (i=1; i<=o; i++){
   if(i%2==0){
     console.log(i)
   }
 }
 
-//TEST 4 WIP (BELOW)
+//TEST 4 COMPLETE! (BELOW)
+console.log("TEST 4:")
 let sum = 0;
 
 for (let i = 0; i <= 100; i++){
     sum += i;
 }
 console.log(sum)
+
+//TEST 5 WIP (BELOW)
+console.log("TEST 5:")
+
 
