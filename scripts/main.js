@@ -7,10 +7,19 @@ for (let i = 1; i <= 10; i++) {
   } 
 
 
-for (let i = 10; i >= 0; i--) {
+for (let i = 5; i >= 0; i--) {
     console.log(i);
 
    if (i === 0) {
        console.log("Blast Off!");
    }
+}
+
+let i = 0;
+let o = 50;
+
+for (i=1;i<=a;i++){
+  if(i%2==0){
+    console.log(i)
+  }
 }
