@@ -61,9 +61,17 @@ for (let i = arr.length - 1;i >= 0; i--) {
 //test 8 below
 console.log("test 8:")
 
-let cool = []
+let cool = [];
 
    for ( let i = 1; i <= 10; i++) {
     cool.push(i**3)
    }
    console.log(cool)
+
+//test 9 below
+console.log("test 9:")
+let fib = [];
+for (let i=3;i<=n;i++) {
+  fib.push(output[i-3] + output[i-2]);
+}
+console.log (fib)
