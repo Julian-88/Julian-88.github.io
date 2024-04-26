@@ -38,4 +38,22 @@ console.log(sum)
 //TEST 5 WIP (BELOW)
 console.log("TEST 5:")
 
+let factorial = 1;
+for (let i = 1; i <= 10; i++){
+    factorial *= i;
+    console.log(factorial);
+}
 
+//test 6 below
+console.log("TEST 6:")
+
+let arr = [3, 1, 4, 1, 5];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i])
+}
+
+//test 7 below
+console.log("test 7:")
+for (let i = arr.length - 1;i >= 0; i--) {
+  reversed_array.push(arr[i]);
+}
