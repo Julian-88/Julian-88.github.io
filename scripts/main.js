@@ -64,7 +64,6 @@ console.log("test 8:")
 let cool = []
 
    for ( let i = 1; i <= 10; i++) {
-    i**3
-    cool.push
+    cool.push(i**3)
    }
    console.log(cool[i])
