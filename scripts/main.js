@@ -66,4 +66,4 @@ let cool = []
    for ( let i = 1; i <= 10; i++) {
     cool.push(i**3)
    }
-   console.log(cool[i])
+   console.log(cool)
