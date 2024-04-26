@@ -55,5 +55,16 @@ for (let i = 0; i < arr.length; i++) {
 //test 7 below
 console.log("test 7:")
 for (let i = arr.length - 1;i >= 0; i--) {
-  reversed_array.push(arr[i]);
+  console.log(arr[i]);
 }
+
+//test 8 below
+console.log("test 8:")
+
+let cool = []
+
+   for ( let i = 1; i <= 10; i++) {
+    i**3
+    cool.push
+   }
+   console.log(cool[i])
