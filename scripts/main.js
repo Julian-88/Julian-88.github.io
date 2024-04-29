@@ -66,12 +66,29 @@ let cool = [];
    for ( let i = 1; i <= 10; i++) {
     cool.push(i**3)
    }
-   console.log(cool)
+   console.log(cool);
 
 //test 9 below
-console.log("test 9:")
+console.log("Task 9");
 let fib = [];
-for (let i=3;i<=n;i++) {
-  fib.push(output[i-3] + output[i-2]);
+let first = 0;
+let second = 1;
+for(let i =1; i <11; i++) {
+
+fib .push (first)
+let temp = second
+second = second + first;
+first = temp
 }
-console.log (fib)
+
+console.log(fib);
+
+// test 10 below
+console.log("test 10:");
+let yay = [];
+for (let i = arr.length - 1; i >= 0; i--) {
+  let yay = arr[i];
+  arr.push(yay);
+  console.log(yay);
+}
+
