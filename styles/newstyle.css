@@ -75,6 +75,20 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+@keyframes cta-button {
+    from {
+        color: white;
+    }
+
+    50%{
+        color: rgb(234, 234, 234);
+    }
+
+    100%{
+        color:lightgray
+    }
+}
+
 .hero .cta-button:hover {
     background: #0056b3;
 }
