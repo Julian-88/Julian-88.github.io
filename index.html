@@ -3,54 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="styles/Main.css" rel="stylesheet">
+    <title>Julian's Website</title>
+    <link rel="stylesheet" href="styles/newstyle.css">
 </head>
-<body class="color">
-    <h1>Julian's Website</h1>
+<name="about" id="Home">
+            <a name="about" id="Home"></a>
+    </header>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/not_here_yet.jpg" alt="Put Logo Here (make erika draw one)">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <name="about" id="about">
+            <a name="about" id="about"></a>
+    </header>
 
-    <p>This website will be all about tennis and who should belong in the GOAT debate an my personal opinion on how they should be ranked</p>
 
-        <h2>GOAT DEBATE:</h2> 
+    <section class="introduction">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Ask mom what she wants here</p>
+        </div>
+        <name="Services" id="Services">
+            <a name="Services" id="Services"></a>
+    </section>
 
-        <p class = silly>Players in the GOAT debate:</p>
-        <ul>
-            <li>Djokovic</li>
-            <li>Nadal</li>
-            <li>Federer</li>
-            <li>Rod Laver</li>
-            <li>Alcaraz</li>
-            <li>Sampras</li>
-            <li>Murray</li>
-        </ul>
-        <p>This is how I would personally put them based on influence and performance:</p>
-        <ol>
-            <li>Federer</li>
-            <li>Djokovic</li>
-            <li>Nadal</li>
-            <li>Alcaraz</li>
-            <li>Sampras</li>
-            <li>Rod Laver</li>
-            <li>Murray</li>
-        </ol>
-        <p>Feel free to read about them and rate them below:</p>
 
-        <h2 class = important>Player Links</h2>
-        <p>Feel free to read about any player</p>
-    
-        <p>Federer Player Overview:
-            <a href="about.html">Federer</a>.</p>
+    <section class="features">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="feature">
+                <img src="feature1.png" alt="Feature 1">
+                <h3>Service 1</h3>
+                <p>Short description of service 1.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.png" alt="Feature 2">
+                <h3>Service 2</h3>
+                <p>Short description of service 2.</p>
+            </div>
+        </div>
+    </section>
 
-        <h3 id = side>Current Rankings:</h3>
-    <p>Current Tennis Rankings Could Be Found Here:  
-        <a href="https://www.atptour.com/en/rankings/singles">ATP Tour</a>.</p>
-        <img src="images/ATP.jpg"
-        alt="image of redwood highschool"
-        style="width: 30%; height: 30%;">
-    
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <p>tagline or mission statement here</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
 
-    <script src = "scripts/main.js"></script>
-    <script src = "scripts/rainbow.js"></script>
+    <section class="testimonials">
+        <div class="boxround container">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>"This is a testimonial from a happy client."</p>
+                <footer>- Client Name</footer>
+            </blockquote>
+        </div>
+        <name="contact" id="contact">
+            <a name="contact" id="contact"></a>
+    </section>
 
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="cool">
+        <div class="links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="features.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+    </section>    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Julian's Website</p>
+            <div class="social-media">
+                <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube" style = "width: 17%; height: 17%;"></a>
+                <a href="https://www.youtube.com"><img src="images/twitter.png" alt="Twitter" style = "width: 17%; height: 17%;"></a>
+                <a href="https://www.youtube.com"><img src="images/instagram.jpg" alt="Instagram" style = "width: 17%; height: 17%;"></a>
+            </div>
+        </div>
+    </footer>
+        <script src="scripts/new.js"></script>
 </body>
 </html>
