@@ -1,19 +1,19 @@
-document.getElementById('home-link').addEventListener('click', function(event) {
+document.getElementById('home.html').addEventListener('click', function(event) {
     event.preventDefault();
     loadPage('home');
 });
 
-document.getElementById('features-link').addEventListener('click', function(event) {
+document.getElementById('features.html').addEventListener('click', function(event) {
     event.preventDefault();
     loadPage('features');
 });
 
-document.getElementById('contact-link').addEventListener('click', function(event) {
+document.getElementById('contact.html').addEventListener('click', function(event) {
     event.preventDefault();
     loadPage('contact');
 });
 
-document.getElementById('get-started').addEventListener('click', function(event) {
+document.getElementById('cta-button').addEventListener('click', function(event) {
     event.preventDefault();
     loadPage('features');
 });
